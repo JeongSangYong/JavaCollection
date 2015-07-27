@@ -1,0 +1,8 @@
+java.lang.Vector
+
+- Java API(Application Programming Interface)
+자주 쓰이는 클래스를 자바 개발자들이 
+오라클 회사의 자바 개발자들이 미리 만들어서 다른 개발자들이 가져다 쓸 수 있도록
+매뉴얼화 시킨 클래스들
+
+ex) Math.random(), Scanner, String.valueOf()

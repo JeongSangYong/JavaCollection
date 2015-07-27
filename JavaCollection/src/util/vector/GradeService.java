@@ -6,7 +6,7 @@ public interface GradeService {
 	/*
 	 * 성적표를 컬렉션에 입력
 	 * */
-	public void input(GradeController grade);
+	public void input(Grade grade);
 	/*
 	 *학생들 성적표 출력
 	 * */

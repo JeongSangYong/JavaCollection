@@ -1,7 +1,7 @@
 package util.vector;
 
 public class Grade {
-	private int kor, eng, math;
+	private int kor, eng, math,total;
 	private String hakbun, name;
 	//생성자는 setter 대신에 생성자로 점수를 입력받음
 	
@@ -59,6 +59,9 @@ public class Grade {
 	//getTotal 메소드를 직접 생성
 	//파라미터로 국어, 영어, 수학
 	//리턴값으로 파라미터 값의 합계
+	public int getTotal(){
+		return this.kor + this.eng + this.math;		
+	}	
 	public int getTotal(int kor, int eng, int math){
 		int total = 0;
 		total = kor + eng + math;

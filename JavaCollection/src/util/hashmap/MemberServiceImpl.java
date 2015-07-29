@@ -45,7 +45,7 @@ public class MemberServiceImpl implements MemberService{
 	@Override
 	public void logout() {
 		// TODO Auto-generated method stub
-		
+		//바껴라
 	}
 
 }
